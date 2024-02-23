@@ -529,7 +529,7 @@
     "html-comment": {
       "comment": "HTML comment",
       "name": "comment.block.marko",
-      "begin": "\\s*(<!(--)?)",
+      "begin": "\\s*(<!--)",
       "end": "\\2>",
       "beginCaptures": {
         "1": { "name": "punctuation.definition.comment.marko" }
